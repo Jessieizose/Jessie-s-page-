@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: 0;
+    background-color: grey;
+}
+.nav-cont{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.nav-links li{
+    list-style-type: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+.nav-right input{
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    padding: 4px;
+}
+.btn{
+    background-color: blue;
+    padding: 8px;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 2%;
+}
+.sectrion{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+article{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 2rem;
+}
+p{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem;
+}
+ol li{
+    font-size: 2rem;
+    list-style-type: none;
+    padding: 5px;
+    font-weight: 400;
+}
